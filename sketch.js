@@ -132,5 +132,5 @@ function draw() {
 function windowResized() { //per ridisegnare grafico se finestra ridimensionata
   resizeCanvas(windowWidth, windowHeight);
   redraw(); //noLoop() dice a p5 disegnare grafico una sola volta
-            //redraw(); forza iridisegno grafico nel nuovo spazio
+            //redraw(); forza ridisegno grafico nel nuovo spazio
 }
